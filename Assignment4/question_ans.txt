@@ -40,8 +40,8 @@
 
  3) Why readines was not printing \n?
 
-        Because compiler trit \n as a new line creator so when we try to print it compiler replace with 
-        new line if we want to print \n then you need to write "\\n" like this.
+        compiler treat  \n as a new line creator so when we try to print it compiler replace with 
+        new line if we want to print \n then you need to write "\\n" .
 
 
          
