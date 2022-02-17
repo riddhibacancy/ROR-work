@@ -1,0 +1,39 @@
+1) Difference between loop and iteration
+
+    loop :-  
+    
+        Loop allows you to tell your program to do something a certain number of times,
+        or until a certain condition is met.
+
+        loops can go to infinite if termination condition fail.
+
+    iterator : 
+        
+        Itretot is a way to operate on a collection object, 
+        like an array, and do something with each element in that collection.
+
+        it does not go in to infinite
+
+         words = ["one", "two", "three", "four"]
+
+        # loop               vs.           iterator
+
+        i = 0                              words.each do |w|
+        while i < words.length                         
+        puts words[i]                      puts w
+        i += 1
+        end                                end
+
+
+2) Difference between strptime and strftime 
+        
+        strptime: 
+        
+            strptime being short for "parse time" 
+            strptime means string parser, this will convert a string format to datetime.
+        
+        strftime: 
+            
+            strftime being short for "formatting time."
+            strftime means string formatter, this will format a datetime object to string format.
+ 

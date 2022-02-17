@@ -3,8 +3,9 @@
 $single_dim=[]
 def convert(arr)
     
-    for x in arr
-        if(x.class==[].class)
+    
+    arr.each do |x|   # or we can use ( for x in arr )
+        if(x.class==Array)
            
             convert(x)    
         else 
@@ -14,7 +15,8 @@ def convert(arr)
     end
 end
 
-multi_dim=[1,5,5,[1,2,3,[5,[8,9,10,[5,6]]]],10]
+multi_dim=[1,5,5,[1,2,3,[5,[8,9,10,[5,6]]]],10 , [20,30]]
 convert(multi_dim)
 
 print $single_dim
+
