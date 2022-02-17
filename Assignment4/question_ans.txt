@@ -37,3 +37,17 @@
             strftime being short for "formatting time."
             strftime means string formatter, this will format a datetime object to string format.
  
+
+ 3) Why readines was not printing \n?
+
+        Because compiler trit \n as a new line creator so when we try to print it compiler replace with 
+        new line if we want to print \n then you need to write "\\n" like this.
+
+
+         
+
+ 4) why "ruby file_copy.rb < sometext.txt > everything.txt"  command first started writing from sometext.txt into file_copy.rb and 
+    not directly writing to everything.txt
+
+     
+     file_copy.rb first take a sometext.txt as a input and then output of the file_copy.rb overwrite into everything.txt
