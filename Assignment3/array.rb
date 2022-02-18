@@ -138,3 +138,28 @@
     a = [12, 18]
     # print a.flat_map { |el| [2*el, 3*el] }
 
+# push opration
+    a =  [1,2,3,4,5]
+    a.push(100)
+
+    print a
+    
+
+
+# push opration
+    a =  [1,2,3,4,5]
+
+    a.pop()
+    print a
+
+# reverse arr
+    a =  [1,2,3,4,5]
+
+    a=a.reverse()
+    print a
+        
+# delete at
+    a =  [1,2,3,4,5]
+
+    a.delete_at(1)
+    print a
