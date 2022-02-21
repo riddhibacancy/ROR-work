@@ -1,0 +1,10 @@
+which should we prefer strings and symbols ? and why ?
+
+    Every time a string is written, it creates a new object with a new place in memory,
+    even if the string is textually identical to an existing string. However, since symbols are immutable,
+    they always refer to the same object and the same place in memory.
+    
+    Symbols come in handy when you need a unique identifier to hold a value, such as a key in a hash.
+
+    
+    So  If the textual content of the object is important, use a String. If the identity of the object is important, use a Symbol.
