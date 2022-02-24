@@ -93,3 +93,6 @@
         puts s.start_with?(' ')
         puts str.end_with?("sondarva")
         puts s.end_with?("h")
+
+
+     
