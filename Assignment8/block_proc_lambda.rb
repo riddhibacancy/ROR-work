@@ -51,7 +51,7 @@
     names = ['Akash','Yash' , 'neel','dhyey'] 
 
 
-    print_proc = Proc.new { |n |  puts "jatu #{n}"}
+    print_proc = Proc.new { |n |  puts "#{n}"}
 
     def each2(array, &block) 
         i = 0
@@ -67,7 +67,7 @@
 
 # lambda
 
-        print_lambda = ->(n) { puts "jatu #{n}"}  
+        print_lambda = ->(n) { puts "#{n}"}  
 
             # or we can use
             #  print_lambda = lambda { |n| puts "jatuuuuuuu #{n}"}  
