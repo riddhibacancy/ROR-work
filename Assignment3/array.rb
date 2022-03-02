@@ -112,6 +112,18 @@
     c = [["student","sam"], ["student","george"],["student","sam"],["teacher","matz"] ,["teacher","sudent"]]
     # print c.uniq! {|s| s.first}
 
+#combination
+
+    a = [1,2,3,4]
+    print a.combination(2).to_a  #it will return all the 2 combination like [1,2],[1,3],[1,4],[2,3]...etc
+    print a.combination(3).t0_a
+
+# selcet
+    a = [1,2,3,4]
+    print a.select {|x| x > 3}
+
+
+
 # transpose (transposes the rows and columns)
     
     a = [[1,2], [3,4], [5,6]]

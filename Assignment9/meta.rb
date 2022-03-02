@@ -4,7 +4,7 @@
       #  It could be string or symbol but symbols are preferred. Then arguments those need to pass in method,
       #   those will be the remaining arguments in send().
 
-
+a = 10
 puts 1.send('+',2)
 
 
