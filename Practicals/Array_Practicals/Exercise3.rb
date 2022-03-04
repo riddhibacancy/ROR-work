@@ -1,40 +1,27 @@
-puts "How many element you want in an array"
-a = gets.to_i
-b = [] 
+# puts "How many element you want in an array"
+# a = gets.to_i
+# b = [] 
 
-puts "enter array element"
-while a!=0 do
-   b << gets.to_i
-   a = a-1
-end
+# puts "enter array element"
+# while a!=0 do
+#    b << gets.to_i
+#    a = a-1
+# end
 
-c = b.uniq
+# c = numbers.uniq
+# while   c.length != numbers.length 
+#      c << nil    
+# end
+# print c
 
-while   c.length != b.length 
-     c << nil    
-end
-puts "Uniq array is"
-print c
+numbers = [0,0,1,1,1,2,2,3,3,4]
+c = numbers.uniq
 
-
+c += [nil]*(numbers.length - c.length)  
+p c
 
 
 # ====
 # output
-
-# Array_Practicals$ ruby Exercise3.rb
-# How many element you want in an array
-# 10
-# enter array element
-# 0
-# 0
-# 1
-# 1
-# 1
-# 2
-# 2
-# 3
-# 3
-# 4
-# Uniq array is
-# [0, 1, 2, 3, 4, nil, nil, nil, nil, nil]
+# Expected output: [0,1,2,3,4, nil, nil, nil, nil, nil]
+  

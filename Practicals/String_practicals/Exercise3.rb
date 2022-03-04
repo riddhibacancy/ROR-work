@@ -16,7 +16,6 @@ a = ""
   b = a.split(//)
   
   for i in 0...string.length do
-    
     if string[i].match(/[aeiou]/i) then
         string[i] = b.pop
     end
@@ -25,4 +24,4 @@ a = ""
   print string
  
 
-
+  

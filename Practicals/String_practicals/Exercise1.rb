@@ -5,7 +5,10 @@
 # Expected output: "cha"
 
 
-string = ["challenge","characteristic","champion"] 
+# string = ["challenge","characteristic","champion"] 
+
+
+string = ["cirs","cars"] 
 
 
 def find(str)
@@ -13,13 +16,16 @@ def find(str)
     s = ""
     a = str[0]
     for i in 0...a.length
-        print i
+        
         if str.all?{|x| x[i] == a[i] }
             s += a[i]
+        else
+            break
         end
+
     end
-    puts s
+    return s
 end
 
-find(string)
+puts find(string)
 
