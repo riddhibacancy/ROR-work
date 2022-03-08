@@ -18,7 +18,7 @@ numbers = [0,0,1,1,1,2,2,3,3,4]
 c = numbers.uniq
 
 c += [nil]*(numbers.length - c.length)  
-p c
+c
 
 
 # ====
